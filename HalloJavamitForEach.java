@@ -11,7 +11,7 @@ public class HalloJavamitForEach {
             System.out.printf(a);
         }
         Consumer<String> consumer = (String s) -> System.out.println(s);
-        liste .forEach(System.out :: print );
+        liste.forEach(System.out :: print );
     }
 
 }
